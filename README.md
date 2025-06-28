@@ -28,3 +28,44 @@ rosbag play MH_01_easy.bag
 In this project, the traditional hand-crafted feature extraction approach was replaced by the deep learning-based SuperPoint method. However, no changes were made to the execution process.
 
 ### Dataset Processing
+The publicly available EuRoC dataset is used in this project and needs to be converted into the following format:
+```
+<dataset_name>
+├── calib.yaml  --> 校准文件
+├── data
+│   ├── groundtruth_matches.txt
+│   ├── groundtruth.txt
+│   ├── stamped_groundtruth.txt
+│   ├── images.txt
+│   ├── img --> 包含实际图像的文件夹
+│   ├── imu.txt
+└── dataset.yaml --> 可选，用于指定特定数据集的参数
+```
+The dataset has already been processed and is ready for use. It is located in the *svo_benchmarking* folder.
+
+### Execution Configuration
+Open two terminals, one to run:
+```
+roscore
+```
+and the other to run:
+```
+rosrun svo_benchmarking benchmark.py superpoint.yaml
+```
+There is no need to launch a separate terminal for *roslaunch*, as *benchmark.py* already starts the necessary ROS nodes.
+
+### Evaluation
+```
+rosrun rpg_trajectory_evaluation analyze_trajectory_single.py <result_folder>
+```
+For each evaluation, make sure to copy the labeled ground truth file into the results directory.
+
+
+
+
+
+
+
+
+
+
