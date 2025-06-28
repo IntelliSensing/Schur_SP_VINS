@@ -1,0 +1,2 @@
+set(svo_msgs_MESSAGE_FILES "/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_msgs/msg/DenseInput.msg;/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_msgs/msg/DenseInputWithFeatures.msg;/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_msgs/msg/Feature.msg;/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_msgs/msg/Info.msg;/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_msgs/msg/NbvTrajectory.msg")
+set(svo_msgs_SERVICE_FILES "")

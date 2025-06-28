@@ -1,0 +1,5 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_pgo.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_pgo/test_pgo
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_pgo.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_pgo/cmake/svo_pgoConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_pgo/cmake/svo_pgoConfig-version.cmake

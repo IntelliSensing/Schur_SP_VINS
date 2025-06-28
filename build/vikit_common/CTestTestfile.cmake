@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: /home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common
+# Build directory: /home/huanhuan/SchurVINS-ws/build/vikit_common
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_vikit_common_gtest_homography "/home/huanhuan/SchurVINS-ws/build/vikit_common/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/huanhuan/SchurVINS-ws/build/vikit_common/test_results/vikit_common/gtest-homography.xml" "--return-code" "/home/huanhuan/SchurVINS-ws/devel/.private/vikit_common/lib/vikit_common/homography --gtest_output=xml:/home/huanhuan/SchurVINS-ws/build/vikit_common/test_results/vikit_common/gtest-homography.xml")
+set_tests_properties(_ctest_vikit_common_gtest_homography PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common/CMakeLists.txt;52;catkin_add_gtest;/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common/CMakeLists.txt;0;")
+add_test(_ctest_vikit_common_gtest_math_utils "/home/huanhuan/SchurVINS-ws/build/vikit_common/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/huanhuan/SchurVINS-ws/build/vikit_common/test_results/vikit_common/gtest-math_utils.xml" "--return-code" "/home/huanhuan/SchurVINS-ws/devel/.private/vikit_common/lib/vikit_common/math_utils --gtest_output=xml:/home/huanhuan/SchurVINS-ws/build/vikit_common/test_results/vikit_common/gtest-math_utils.xml")
+set_tests_properties(_ctest_vikit_common_gtest_math_utils PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common/CMakeLists.txt;55;catkin_add_gtest;/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common/CMakeLists.txt;0;")
+subdirs("gtest")

@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/eigen_catkin.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/eigen_catkin/cmake/eigen_catkinConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/eigen_catkin/cmake/eigen_catkinConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/eigen_catkin/cmake/eigen-extras.cmake

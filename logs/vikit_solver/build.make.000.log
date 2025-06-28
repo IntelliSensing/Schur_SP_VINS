@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target vikit_solver[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vikit_solver.dir/src/robust_cost.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/huanhuan/SchurVINS-ws/devel/.private/vikit_solver/lib/libvikit_solver.so[0m
+[100%] Built target vikit_solver

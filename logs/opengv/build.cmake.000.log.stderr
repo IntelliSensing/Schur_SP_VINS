@@ -1,0 +1,5 @@
+Found catkin. Creating opengv package with catkin
+[33m[1mCMake Warning[0m at /home/huanhuan/SchurVINS-ws/src/opengv/CMakeLists.txt:166 (message):
+  Eigen:
+
+

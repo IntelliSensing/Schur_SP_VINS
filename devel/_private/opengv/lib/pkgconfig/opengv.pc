@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/opengv
+
+Name: opengv
+Description: Description of opengv
+Version: 1.0.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/opengv/include
+Libs: -L${prefix}/lib -lopengv -lrandom_generators
+Requires: 

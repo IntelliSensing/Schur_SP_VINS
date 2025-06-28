@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/huanhuan/SchurVINS-ws/src/eigen-3.3.9/test/nesting_ops.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "nesting_ops_3"
+	}
+}

@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_tracker.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_tracker.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_tracker/cmake/svo_trackerConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_tracker/cmake/svo_trackerConfig.cmake

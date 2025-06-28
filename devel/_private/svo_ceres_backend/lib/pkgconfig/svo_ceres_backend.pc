@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_ceres_backend
+
+Name: svo_ceres_backend
+Description: Description of svo_ceres_backend
+Version: 0.1.4
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_ceres_backend/include
+Libs: -L${prefix}/lib -lsvo_ceres_backend
+Requires: ceres_catkin eigen_catkin glog_catkin svo_vio_common svo_common svo pcl_ros

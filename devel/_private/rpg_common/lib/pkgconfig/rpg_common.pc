@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/rpg_common
+
+Name: rpg_common
+Description: Description of rpg_common
+Version: 0.0.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/rpg_common/include
+Libs: -L${prefix}/lib -lrpg_common
+Requires: cv_bridge eigen_catkin eigen_checks gflags_catkin glog_catkin minkindr

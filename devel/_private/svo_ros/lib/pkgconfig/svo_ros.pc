@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_ros
+
+Name: svo_ros
+Description: Description of svo_ros
+Version: 0.1.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_ros/include
+Libs: -L${prefix}/lib -lsvo_ros -lsvo_nodelet
+Requires: cv_bridge eigen_catkin eigen_checks image_transport nodelet roscpp minkindr nav_msgs pcl_ros rpg_common sensor_msgs std_msgs svo svo_cmake svo_common svo_msgs svo_tracker svo_ceres_backend svo_online_loopclosing tf vikit_common vikit_ros visualization_msgs

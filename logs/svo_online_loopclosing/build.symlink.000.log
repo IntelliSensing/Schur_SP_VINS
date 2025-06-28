@@ -1,0 +1,6 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libbow.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_online_loopclosing.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_online_loopclosing/createvoc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_online_loopclosing.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_online_loopclosing/cmake/svo_online_loopclosingConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_online_loopclosing/cmake/svo_online_loopclosingConfig.cmake

@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/install
+
+Name: svo_vio_common
+Description: Description of svo_vio_common
+Version: 0.1.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsvo_vio_common
+Requires: eigen_catkin glog_catkin gflags_catkin minkindr geometry_msgs std_msgs svo_common

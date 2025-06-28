@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/cmake_external_project_catkin
+
+Name: cmake_external_project_catkin
+Description: Description of cmake_external_project_catkin
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/install
+
+Name: svo
+Description: Description of svo
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsvo
+Requires: svo_cmake svo_common svo_direct svo_tracker svo_test_utils svo_img_align svo_online_loopclosing svo_vio_common roscpp roslib rpg_common vikit_common vikit_cameras vikit_solver vikit_ros eigen_catkin minkindr fast opengv cv_bridge glog_catkin

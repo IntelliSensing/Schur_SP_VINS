@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_img_align
+
+Name: svo_img_align
+Description: Description of svo_img_align
+Version: 0.0.1
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_img_align/include
+Libs: -L${prefix}/lib -lsvo_img_align
+Requires: svo_cmake svo_common svo_direct glog_catkin eigen_catkin vikit_solver vikit_ros eigen_checks

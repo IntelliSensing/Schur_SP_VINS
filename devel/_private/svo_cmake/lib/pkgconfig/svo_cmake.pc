@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_cmake
+
+Name: svo_cmake
+Description: Description of svo_cmake
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

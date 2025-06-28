@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/install
+
+Name: vikit_solver
+Description: Description of vikit_solver
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvikit_solver
+Requires: eigen_catkin glog_catkin

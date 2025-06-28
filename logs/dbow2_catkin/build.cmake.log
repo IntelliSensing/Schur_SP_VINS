@@ -1,0 +1,42 @@
+Not searching for unused variables given on the command line.
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/huanhuan/SchurVINS-ws/devel/.private/dbow2_catkin
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/huanhuan/SchurVINS-ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/huanhuan/SchurVINS-ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/huanhuan/SchurVINS-ws/build/dbow2_catkin/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m project:  dbow2_src
+[36m--[0m binary_dir: /home/huanhuan/SchurVINS-ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-build
+[36m--[0m catkin is available (/usr/bin/catkin)
+[36m--[0m CATKIN_TOOLS_AVAILABLE: /usr/bin/catkin
+[36m--[0m CATKIN_INSTALL_PREFIX: /home/huanhuan/SchurVINS-ws/install
+[36m--[0m CATKIN_INSTALL:
+[36m--[0m Package not installed.
+[36m--[0m Marking SHARED_LIBRARY "dbow2_catkin" of package "dbow2_catkin" for installation
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/huanhuan/SchurVINS-ws/build/dbow2_catkin

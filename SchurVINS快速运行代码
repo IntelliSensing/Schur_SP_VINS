@@ -1,0 +1,29 @@
+运行schurvins：
+打开三个终端
+终端1：
+cd /home/huanhuan/SchurVINS-ws
+source devel/setup.bash
+roslaunch svo_ros euroc_vio_stereo.launch
+
+终端2：
+cd /home/huanhuan/SchurVINS-ws
+source devel/setup.bash
+cd /home/huanhuan/SchurVINS-ws/src/SchurVINS
+rviz -d svo_ros/rviz_config.rviz
+
+终端3：
+cd /home/huanhuan/datasets/rosbag
+rosbag play MH_01_easy.bag
+
+
+
+（可以不用）虚拟空间：
+#                                                                                                                                                                                                          
+# To activate this environment, use
+#
+#     $ conda activate schurvins_python2_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+

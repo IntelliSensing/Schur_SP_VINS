@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_vio_common.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_vio_common.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_vio_common/cmake/svo_vio_commonConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_vio_common/cmake/svo_vio_commonConfig-version.cmake

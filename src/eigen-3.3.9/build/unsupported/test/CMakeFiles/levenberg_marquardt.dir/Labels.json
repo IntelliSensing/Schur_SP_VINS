@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/huanhuan/SchurVINS-ws/src/eigen-3.3.9/unsupported/test/levenberg_marquardt.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "levenberg_marquardt"
+	}
+}

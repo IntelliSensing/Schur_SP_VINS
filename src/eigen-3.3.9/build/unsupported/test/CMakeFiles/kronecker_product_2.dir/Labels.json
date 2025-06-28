@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/huanhuan/SchurVINS-ws/src/eigen-3.3.9/unsupported/test/kronecker_product.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "kronecker_product_2"
+	}
+}

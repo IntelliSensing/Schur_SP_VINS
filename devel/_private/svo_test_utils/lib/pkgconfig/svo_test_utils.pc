@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_test_utils
+
+Name: svo_test_utils
+Description: Description of svo_test_utils
+Version: 0.0.1
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_test_utils/include
+Libs: -L${prefix}/lib -lsvo_test_utils
+Requires: cv_bridge eigen_catkin glog_catkin roslib svo_common vikit_ros vikit_common vikit_cameras

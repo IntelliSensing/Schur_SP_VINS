@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo/cmake/svoConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo/cmake/svoConfig-version.cmake

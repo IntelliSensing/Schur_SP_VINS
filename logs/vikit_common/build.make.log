@@ -1,0 +1,67 @@
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target vikit_common[0m
+[  9%] [32mBuilding CXX object CMakeFiles/vikit_common.dir/src/math_utils.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/vikit_common.dir/src/performance_monitor.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vikit_common.dir/src/homography.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vikit_common.dir/src/vision.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vikit_common.dir/src/user_input_thread.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/vikit_common.dir/src/sample.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library /home/huanhuan/SchurVINS-ws/devel/.private/vikit_common/lib/libvikit_common.so[0m
+[ 63%] Built target vikit_common
+[35m[1mScanning dependencies of target vikit_test_common[0m
+[35m[1mScanning dependencies of target vikit_test_timer[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/vikit_test_timer.dir/test/test_timer.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/vikit_test_common.dir/test/test_common.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/vikit_common/lib/vikit_common/vikit_test_timer[0m
+[ 90%] Built target vikit_test_timer
+[100%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/vikit_common/lib/vikit_common/vikit_test_common[0m
+[100%] Built target vikit_test_common

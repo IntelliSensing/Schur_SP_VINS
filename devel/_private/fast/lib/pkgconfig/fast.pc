@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/fast
+
+Name: fast
+Description: Description of fast
+Version: 0.0.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/fast_neon/include
+Libs: -L${prefix}/lib -lfast
+Requires: 

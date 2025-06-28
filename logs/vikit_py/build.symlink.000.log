@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/vikit_py.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/python3/dist-packages/vikit_py/__init__.py
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_py/cmake/vikit_pyConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_py/cmake/vikit_pyConfig-version.cmake

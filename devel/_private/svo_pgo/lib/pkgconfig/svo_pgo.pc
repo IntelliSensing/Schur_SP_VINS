@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_pgo
+
+Name: svo_pgo
+Description: Description of svo_pgo
+Version: 0.0.1
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_pgo/include
+Libs: -L${prefix}/lib -lsvo_pgo
+Requires: roscpp roslib svo_cmake svo_common eigen_catkin ceres_catkin cv_bridge

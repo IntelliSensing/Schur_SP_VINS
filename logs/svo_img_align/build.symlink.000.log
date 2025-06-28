@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_img_align.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_img_align.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_img_align/cmake/svo_img_alignConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_img_align/cmake/svo_img_alignConfig.cmake

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/rpg_common/include/rpg_common/fs.h
+string
+-
+vector
+-
+
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/rpg_common/src/fs.cpp
+rpg_common/fs.h
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/rpg_common/src/rpg_common/fs.h
+dirent.h
+-
+sys/stat.h
+-
+glog/logging.h
+-
+

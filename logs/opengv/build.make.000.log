@@ -1,0 +1,316 @@
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target opengv[0m
+[  1%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/spolynomials.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/init.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/reductors.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/main.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/Epnp.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/code.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/init.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/reductors.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/spolynomials.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/code.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/reductors.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/code.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/init.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/code.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/spolynomials.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/init.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/reductors.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/spolynomials.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/code.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/init.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/reductors.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/spolynomials.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/code.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/init.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/reductors.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/spolynomials.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/upnp2.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/upnp4.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/local/include/eigen3/unsupported/Eigen/NonLinearOptimization:15[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/modules/main.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/modules/main.cpp:[m[K In member function ‘[01m[Kint opengv::absolute_pose::modules::GpnpOptimizationFunctor::operator()(const VectorXd&, Eigen::VectorXd&) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/modules/main.cpp:646:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  646 |     assert( [01;35m[Kx.size() == _dim[m[K );
+      |             [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[ 26%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_nister/modules.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_stewenius/modules.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/code.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/init.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/reductors.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/spolynomials.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/sixpt/modules2.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/eigensolver/modules.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/ge/modules.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/math/cayley.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/math/quaternion.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/math/arun.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/math/Sturm.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/math/roots.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/math/gauss_jordan.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/methods.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/CentralAbsoluteAdapter.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/NoncentralAbsoluteAdapter.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/NoncentralAbsoluteMultiAdapter.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/methods.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeAdapter.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeWeightingAdapter.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/absolute_pose/NoncentralAbsoluteAdapter.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::absolute_pose::NoncentralAbsoluteAdapter::getCamOffset(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:109:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  109 |   assert(_camCorrespondences[index] < _camOffsets.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::rotation_t opengv::absolute_pose::NoncentralAbsoluteAdapter::getCamRotation(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:117:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 3>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 3> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  117 |   assert(_camCorrespondences[index] < _camRotations.size());
+[ 46%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/NoncentralRelativeAdapter.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeMultiAdapter.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/NoncentralRelativeMultiAdapter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/triangulation/methods.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/point_cloud/methods.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/point_cloud/PointCloudAdapter.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/absolute_pose/AbsolutePoseSacProblem.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/NoncentralRelativeAdapter.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamOffset1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:115:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  115 |   assert(_camCorrespondences1[index] < _camOffsets.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::rotation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamRotation1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:123:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 3>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 3> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  123 |   assert(_camCorrespondences1[index] < _camRotations.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamOffset2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:131:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  131 |   assert(_camCorrespondences2[index] < _camOffsets.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::rotation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamRotation2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:139:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 3>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 3> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  139 |   assert(_camCorrespondences2[index] < _camRotations.size());
+[ 53%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/absolute_pose/MultiNoncentralAbsolutePoseSacProblem.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/CentralRelativePoseSacProblem.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/NoncentralRelativePoseSacProblem.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/RotationOnlySacProblem.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/TranslationOnlySacProblem.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/EigensolverSacProblem.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/MultiNoncentralRelativePoseSacProblem.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/point_cloud/PointCloudSacProblem.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/MACentralAbsolute.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/MANoncentralAbsolute.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/absolute_pose/MACentralAbsolute.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::absolute_pose::MACentralAbsolute::getBearingVector(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:53:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |   assert([01;35m[Kindex < _numberBearingVectors[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::absolute_pose::MACentralAbsolute::getPoint(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:73:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   73 |   assert([01;35m[Kindex < _numberPoints[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[ 63%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/MACentralRelative.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/MANoncentralRelative.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/MANoncentralRelativeMulti.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/absolute_pose/MANoncentralAbsolute.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::absolute_pose::MANoncentralAbsolute::getBearingVector(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:52:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   52 |   assert([01;35m[Kindex < _numberBearingVectors[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::absolute_pose::MANoncentralAbsolute::getPoint(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:72:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   72 |   assert([01;35m[Kindex < _numberPoints[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::absolute_pose::MANoncentralAbsolute::getCamOffset(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:83:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   83 |   assert([01;35m[Kindex < _numberBearingVectors[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 65%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/point_cloud/MAPointCloud.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/MANoncentralRelative.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelative::getBearingVector1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:53:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |   assert([01;35m[Kindex < _numberBearingVectors1[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelative::getBearingVector2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:64:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   64 |   assert([01;35m[Kindex < _numberBearingVectors2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::MANoncentralRelative::getCamOffset1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:84:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   84 |   assert([01;35m[Kindex < _numberBearingVectors1[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::MANoncentralRelative::getCamOffset2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:102:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  102 |   assert([01;35m[Kindex < _numberBearingVectors2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/MACentralRelative.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MACentralRelative::getBearingVector1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:53:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |   assert([01;35m[Kindex < _numberBearingVectors1[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MACentralRelative::getBearingVector2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:64:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   64 |   assert([01;35m[Kindex < _numberBearingVectors2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/MANoncentralRelativeMulti.hpp:44[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelativeMulti::getBearingVector1(size_t, size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:70:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   70 |   assert(correspondenceIndex < _numberBearingVectors[pairIndex]);
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelativeMulti::getBearingVector2(size_t, size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:85:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   85 |   assert(correspondenceIndex < _numberBearingVectors[pairIndex]);
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/point_cloud/MAPointCloud.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::point_cloud::MAPointCloud::getPoint1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:54:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   54 |   assert( [01;35m[Kindex < _numberPoints1[m[K );
+      |           [01;35m[K~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::point_cloud::MAPointCloud::getPoint2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:65:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   65 |   assert([01;35m[Kindex < _numberPoints2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~[m[K
+[ 67%] [32m[1mLinking CXX shared library /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/libopengv.so[0m
+[ 67%] Built target opengv
+[35m[1mScanning dependencies of target random_generators[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/random_generators.dir/test/random_generators.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/random_generators.dir/test/experiment_helpers.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/random_generators.dir/test/time_measurement.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/librandom_generators.so[0m
+[ 70%] Built target random_generators
+[35m[1mScanning dependencies of target test_triangulation[0m
+[35m[1mScanning dependencies of target test_point_cloud[0m
+[35m[1mScanning dependencies of target test_multi_noncentral_relative_pose_sac[0m
+[35m[1mScanning dependencies of target test_noncentral_relative_pose_sac[0m
+[35m[1mScanning dependencies of target test_eigensolver[0m
+[35m[1mScanning dependencies of target test_eigensolver_sac[0m
+[35m[1mScanning dependencies of target test_relative_pose_rotationOnly[0m
+[35m[1mScanning dependencies of target test_relative_pose_sac[0m
+[35m[1mScanning dependencies of target test_noncentral_relative_pose[0m
+[35m[1mScanning dependencies of target test_point_cloud_sac[0m
+[35m[1mScanning dependencies of target test_relative_pose[0m
+[35m[1mScanning dependencies of target test_noncentral_absolute_pose[0m
+[35m[1mScanning dependencies of target test_absolute_pose_sac[0m
+[35m[1mScanning dependencies of target test_noncentral_absolute_pose_sac[0m
+[35m[1mScanning dependencies of target test_relative_pose_rotationOnly_sac[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test_eigensolver.dir/test/test_eigensolver.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_triangulation.dir/test/test_triangulation.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_point_cloud.dir/test/test_point_cloud.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_multi_noncentral_relative_pose_sac.dir/test/test_multi_noncentral_relative_pose_sac.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_noncentral_relative_pose_sac.dir/test/test_noncentral_relative_pose_sac.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_noncentral_absolute_pose.dir/test/test_noncentral_absolute_pose.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_relative_pose_rotationOnly.dir/test/test_relative_pose_rotationOnly.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_point_cloud_sac.dir/test/test_point_cloud_sac.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/test_relative_pose.dir/test/test_relative_pose.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/test_noncentral_relative_pose.dir/test/test_noncentral_relative_pose.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_eigensolver_sac.dir/test/test_eigensolver_sac.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_absolute_pose_sac.dir/test/test_absolute_pose_sac.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/test_relative_pose_rotationOnly_sac.dir/test/test_relative_pose_rotationOnly_sac.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/test_relative_pose_sac.dir/test/test_relative_pose_sac.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/test_noncentral_absolute_pose_sac.dir/test/test_noncentral_absolute_pose_sac.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_noncentral_relative_pose[0m
+[ 85%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_relative_pose_rotationOnly[0m
+[ 86%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_point_cloud[0m
+[ 87%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_noncentral_absolute_pose[0m
+[ 88%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_triangulation[0m
+[ 89%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_relative_pose[0m
+[ 90%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_absolute_pose_sac[0m
+[ 91%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_relative_pose_rotationOnly_sac[0m
+[ 92%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_point_cloud_sac[0m
+[ 93%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_eigensolver_sac[0m
+[ 94%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_noncentral_relative_pose_sac[0m
+[ 95%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_multi_noncentral_relative_pose_sac[0m
+[ 95%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_eigensolver[0m
+[ 96%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_noncentral_absolute_pose_sac[0m
+[ 97%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_relative_pose_sac[0m
+[ 97%] Built target test_point_cloud
+[35m[1mScanning dependencies of target test_absolute_pose[0m
+[ 97%] Built target test_relative_pose_rotationOnly
+[ 98%] [32mBuilding CXX object CMakeFiles/test_absolute_pose.dir/test/test_absolute_pose.cpp.o[0m
+[ 98%] Built target test_noncentral_absolute_pose
+[ 98%] Built target test_relative_pose
+[ 98%] Built target test_noncentral_relative_pose
+[ 98%] Built target test_eigensolver_sac
+[ 98%] Built target test_relative_pose_rotationOnly_sac
+[ 98%] Built target test_absolute_pose_sac
+[ 98%] Built target test_triangulation
+[ 98%] Built target test_noncentral_relative_pose_sac
+[ 98%] Built target test_point_cloud_sac
+[ 98%] Built target test_multi_noncentral_relative_pose_sac
+[ 98%] Built target test_eigensolver
+[ 98%] Built target test_noncentral_absolute_pose_sac
+[ 98%] Built target test_relative_pose_sac
+[100%] [32m[1mLinking CXX executable /home/huanhuan/SchurVINS-ws/devel/.private/opengv/lib/opengv/test_absolute_pose[0m
+[100%] Built target test_absolute_pose

@@ -1,0 +1,64 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/huanhuan/SchurVINS-ws/devel/.private/dbow2_catkin
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/huanhuan/SchurVINS-ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/huanhuan/SchurVINS-ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Found PY_em: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/huanhuan/SchurVINS-ws/build/dbow2_catkin/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/ExternalProject.cmake:2630 (message):
+  No download info given for 'dbow2_src' and its source directory:
+
+   /home/huanhuan/SchurVINS-ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src
+
+  is not an existing non-empty directory.  Please specify one of:
+
+   * SOURCE_DIR with an existing non-empty directory
+   * DOWNLOAD_COMMAND
+   * URL
+   * GIT_REPOSITORY
+   * SVN_REPOSITORY
+   * HG_REPOSITORY
+   * CVS_REPOSITORY and CVS_MODULE
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/ExternalProject.cmake:3236 (_ep_add_download_command)
+  CMakeLists.txt:11 (ExternalProject_Add)
+
+
+[36m--[0m project:  dbow2_src
+[36m--[0m binary_dir: /home/huanhuan/SchurVINS-ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-build
+[36m--[0m catkin is available (/usr/bin/catkin)
+[36m--[0m CATKIN_TOOLS_AVAILABLE: /usr/bin/catkin
+[36m--[0m CATKIN_INSTALL_PREFIX: /home/huanhuan/SchurVINS-ws/install
+[36m--[0m CATKIN_INSTALL:
+[36m--[0m Package not installed.
+[36m--[0m Marking SHARED_LIBRARY "dbow2_catkin" of package "dbow2_catkin" for installation
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/huanhuan/SchurVINS-ws/build/dbow2_catkin/CMakeFiles/CMakeOutput.log".
+See also "/home/huanhuan/SchurVINS-ws/build/dbow2_catkin/CMakeFiles/CMakeError.log".

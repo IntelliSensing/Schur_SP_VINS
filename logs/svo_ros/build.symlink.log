@@ -1,0 +1,7 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_ros.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_nodelet.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_ros/svo_node
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_ros/svo_benchmark
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_ros.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_ros/cmake/svo_rosConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_ros/cmake/svo_rosConfig.cmake

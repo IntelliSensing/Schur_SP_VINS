@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_ceres_backend.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_ceres_backend.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_ceres_backend/cmake/svo_ceres_backendConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_ceres_backend/cmake/svo_ceres_backendConfig.cmake

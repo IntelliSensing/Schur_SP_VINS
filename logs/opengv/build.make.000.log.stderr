@@ -1,0 +1,140 @@
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/local/include/eigen3/unsupported/Eigen/NonLinearOptimization:15[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/modules/main.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/modules/main.cpp:[m[K In member function ‘[01m[Kint opengv::absolute_pose::modules::GpnpOptimizationFunctor::operator()(const VectorXd&, Eigen::VectorXd&) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/modules/main.cpp:646:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  646 |     assert( [01;35m[Kx.size() == _dim[m[K );
+      |             [01;35m[K~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/absolute_pose/NoncentralAbsoluteAdapter.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::absolute_pose::NoncentralAbsoluteAdapter::getCamOffset(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:109:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  109 |   assert(_camCorrespondences[index] < _camOffsets.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::rotation_t opengv::absolute_pose::NoncentralAbsoluteAdapter::getCamRotation(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp:117:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 3>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 3> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  117 |   assert(_camCorrespondences[index] < _camRotations.size());
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/NoncentralRelativeAdapter.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamOffset1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:115:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  115 |   assert(_camCorrespondences1[index] < _camOffsets.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::rotation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamRotation1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:123:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 3>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 3> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  123 |   assert(_camCorrespondences1[index] < _camRotations.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamOffset2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:131:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  131 |   assert(_camCorrespondences2[index] < _camOffsets.size());
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:[m[K In member function ‘[01m[Kvirtual opengv::rotation_t opengv::relative_pose::NoncentralRelativeAdapter::getCamRotation2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp:139:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 3>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 3> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  139 |   assert(_camCorrespondences2[index] < _camRotations.size());
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/absolute_pose/MACentralAbsolute.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::absolute_pose::MACentralAbsolute::getBearingVector(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:53:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |   assert([01;35m[Kindex < _numberBearingVectors[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::absolute_pose::MACentralAbsolute::getPoint(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MACentralAbsolute.cpp:73:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   73 |   assert([01;35m[Kindex < _numberPoints[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/absolute_pose/MANoncentralAbsolute.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::absolute_pose::MANoncentralAbsolute::getBearingVector(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:52:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   52 |   assert([01;35m[Kindex < _numberBearingVectors[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::absolute_pose::MANoncentralAbsolute::getPoint(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:72:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   72 |   assert([01;35m[Kindex < _numberPoints[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::absolute_pose::MANoncentralAbsolute::getCamOffset(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp:83:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   83 |   assert([01;35m[Kindex < _numberBearingVectors[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/MANoncentralRelative.hpp:43[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelative::getBearingVector1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:53:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |   assert([01;35m[Kindex < _numberBearingVectors1[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelative::getBearingVector2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:64:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   64 |   assert([01;35m[Kindex < _numberBearingVectors2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::MANoncentralRelative::getCamOffset1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:84:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   84 |   assert([01;35m[Kindex < _numberBearingVectors1[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::translation_t opengv::relative_pose::MANoncentralRelative::getCamOffset2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelative.cpp:102:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  102 |   assert([01;35m[Kindex < _numberBearingVectors2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/MACentralRelative.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MACentralRelative::getBearingVector1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:53:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |   assert([01;35m[Kindex < _numberBearingVectors1[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MACentralRelative::getBearingVector2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MACentralRelative.cpp:64:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   64 |   assert([01;35m[Kindex < _numberBearingVectors2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/relative_pose/MANoncentralRelativeMulti.hpp:44[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelativeMulti::getBearingVector1(size_t, size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:70:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   70 |   assert(correspondenceIndex < _numberBearingVectors[pairIndex]);
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:[m[K In member function ‘[01m[Kvirtual opengv::bearingVector_t opengv::relative_pose::MANoncentralRelativeMulti::getBearingVector2(size_t, size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp:85:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   85 |   assert(correspondenceIndex < _numberBearingVectors[pairIndex]);
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:280[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/types.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/include/opengv/point_cloud/MAPointCloud.hpp:42[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:32[m[K:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::point_cloud::MAPointCloud::getPoint1(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:54:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   54 |   assert( [01;35m[Kindex < _numberPoints1[m[K );
+      |           [01;35m[K~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:[m[K In member function ‘[01m[Kvirtual opengv::point_t opengv::point_cloud::MAPointCloud::getPoint2(size_t) const[m[K’:
+[01m[K/home/huanhuan/SchurVINS-ws/src/opengv/src/point_cloud/MAPointCloud.cpp:65:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   65 |   assert([01;35m[Kindex < _numberPoints2[m[K);
+      |          [01;35m[K~~~~~~^~~~~~~~~~~~~~~~[m[K

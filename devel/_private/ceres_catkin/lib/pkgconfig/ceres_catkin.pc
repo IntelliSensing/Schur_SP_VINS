@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/ceres_catkin
+
+Name: ceres_catkin
+Description: Description of ceres_catkin
+Version: 1.14.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/devel/.private/ceres_catkin/include
+Libs: -L${prefix}/lib -lceres
+Requires: 

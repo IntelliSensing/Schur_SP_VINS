@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libvikit_cameras.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/vikit_cameras.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_cameras/cmake/vikit_camerasConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_cameras/cmake/vikit_camerasConfig-version.cmake

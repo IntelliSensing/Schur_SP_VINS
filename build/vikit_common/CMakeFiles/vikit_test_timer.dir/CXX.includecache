@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common/include/vikit/timer.h
+chrono
+-
+string
+-
+sstream
+-
+iomanip
+-
+ctime
+-
+
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_common/test/test_timer.cpp
+iostream
+-
+chrono
+-
+thread
+-
+iomanip
+-
+vikit/timer.h
+-
+

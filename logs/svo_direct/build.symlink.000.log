@@ -1,0 +1,8 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_direct.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_direct/svo_test_edgelet_extraction
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_direct/svo_test_feature_alignment
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_direct/svo_test_patch_score
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/svo_direct/svo_test_edgelet_direction
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_direct.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_direct/cmake/svo_directConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_direct/cmake/svo_directConfig-version.cmake

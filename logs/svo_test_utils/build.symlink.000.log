@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libsvo_test_utils.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/svo_test_utils.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_test_utils/cmake/svo_test_utilsConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/svo_test_utils/cmake/svo_test_utilsConfig-version.cmake

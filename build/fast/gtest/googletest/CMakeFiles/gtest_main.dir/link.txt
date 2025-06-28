@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -Wall -Werror -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unknown-pragmas -O3 -mmmx -msse -msse -msse2 -msse3 -mssse3 -fomit-frame-pointer  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/huanhuan/SchurVINS-ws/build/fast/gtest/lib ../lib/libgtest.so -lpthread 

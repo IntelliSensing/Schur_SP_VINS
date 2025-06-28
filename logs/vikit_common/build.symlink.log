@@ -1,0 +1,6 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libvikit_common.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/vikit_common/vikit_test_timer
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/vikit_common/vikit_test_common
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/vikit_common.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_common/cmake/vikit_commonConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_common/cmake/vikit_commonConfig.cmake

@@ -1,0 +1,34 @@
+正克隆到 'ceres_src'...
+fatal: 无法访问 'https://github.com/ceres-solver/ceres-solver.git/'：Failed to connect to github.com port 443: 连接超时
+正克隆到 'ceres_src'...
+注意：正在切换到 '1.14.0'。
+
+您正处于分离头指针状态。您可以查看、做试验性的修改及提交，并且您可以在切换
+回一个分支时，丢弃在此状态下所做的提交而不对分支造成影响。
+
+如果您想要通过创建分支来保留在此状态下所做的提交，您可以通过在 switch 命令
+中添加参数 -c 来实现（现在或稍后）。例如：
+
+  git switch -c <新分支名>
+
+或者撤销此操作：
+
+  git switch -
+
+通过将配置变量 advice.detachedHead 设置为 false 来关闭此建议
+
+HEAD 目前位于 facb199f Add the missing (2,4,6) specialization to Android.mk
+-- Found Eigen version 3.3.7: /usr/include/eigen3
+-- Enabling use of Eigen as a sparse linear algebra library.
+-- Found LAPACK library: /usr/lib/x86_64-linux-gnu/libopenblas.so
+-- Found SuiteSparse 5.7.1, building with SuiteSparse.
+-- Found CXSparse version: 3.2.0, building with CXSparse.
+-- Found Google Flags header in: /home/huanhuan/SchurVINS-ws/devel/include, in namespace: google
+-- Found Google Log (glog). Assuming glog was built with gflags support as gflags was found. This will make gflags a public dependency of Ceres.
+-- Building with OpenMP.
+-- Found unordered_map/set in std namespace.
+-- Found shared_ptr in std namespace using <memory> header.
+-- Building Ceres as a shared library.
+-- Do not build any example.
+make[3]: warning: -j8 forced in submake: resetting jobserver mode.
+make[3]: warning: -j8 forced in submake: resetting jobserver mode.

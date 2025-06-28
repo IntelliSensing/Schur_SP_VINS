@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_tracker
+
+Name: svo_tracker
+Description: Description of svo_tracker
+Version: 0.0.1
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_tracker/include
+Libs: -L${prefix}/lib -lsvo_tracker
+Requires: roslib glog_catkin cv_bridge eigen_catkin svo_common svo_direct svo_test_utils

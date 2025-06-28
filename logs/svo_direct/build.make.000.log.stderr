@@ -1,0 +1,111 @@
+In file included from [01m[K/home/huanhuan/libtorch/include/c10/core/MemoryFormat.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/core/Tensor.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/Tensor.h:2[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/types.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_direct/include/svo/direct/ov_SPextractor.h:28[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_direct/src/ov_SPextractor.cc:63[m[K:
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = long int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/c10/core/TensorImpl.h:1456:34:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<long int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<long int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+  103 |       : Data(Vec.begin() == Vec.end() ? static_cast<T*>(nullptr) : Vec.begin()),
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = unsigned char][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<unsigned char>::Data[m[K’ from ‘[01m[Kstd::initializer_list<unsigned char>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = signed char][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<signed char>::Data[m[K’ from ‘[01m[Kstd::initializer_list<signed char>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = short int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<short int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<short int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = float][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<float>::Data[m[K’ from ‘[01m[Kstd::initializer_list<float>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = double][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<double>::Data[m[K’ from ‘[01m[Kstd::initializer_list<double>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+In file included from [01m[K/home/huanhuan/libtorch/include/c10/core/MemoryFormat.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/core/Tensor.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/Tensor.h:2[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/types.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_direct/include/svo/direct/ov_SuperPoint.h:5[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_direct/src/ov_SuperPoint.cc:1[m[K:
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = long int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/c10/core/TensorImpl.h:1456:34:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<long int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<long int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+  103 |       : Data(Vec.begin() == Vec.end() ? static_cast<T*>(nullptr) : Vec.begin()),
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = unsigned char][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<unsigned char>::Data[m[K’ from ‘[01m[Kstd::initializer_list<unsigned char>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = signed char][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<signed char>::Data[m[K’ from ‘[01m[Kstd::initializer_list<signed char>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = short int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<short int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<short int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = float][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<float>::Data[m[K’ from ‘[01m[Kstd::initializer_list<float>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = double][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<double>::Data[m[K’ from ‘[01m[Kstd::initializer_list<double>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+In file included from [01m[K/home/huanhuan/libtorch/include/c10/core/MemoryFormat.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/core/Tensor.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/Tensor.h:2[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/types.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/huanhuan/libtorch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_direct/include/svo/direct/ov_SPextractor.h:28[m[K,
+                 from [01m[K/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_direct/src/feature_detection.cpp:21[m[K:
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = long int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/c10/core/TensorImpl.h:1456:34:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<long int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<long int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+  103 |       : Data(Vec.begin() == Vec.end() ? static_cast<T*>(nullptr) : Vec.begin()),
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = unsigned char][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<unsigned char>::Data[m[K’ from ‘[01m[Kstd::initializer_list<unsigned char>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = signed char][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<signed char>::Data[m[K’ from ‘[01m[Kstd::initializer_list<signed char>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = short int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<short int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<short int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = int][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<int>::Data[m[K’ from ‘[01m[Kstd::initializer_list<int>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = float][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<float>::Data[m[K’ from ‘[01m[Kstd::initializer_list<float>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]
+/home/huanhuan/libtorch/include/c10/util/ArrayRef.h: In instantiation of ‘[01m[Kconstexpr c10::ArrayRef<T>::ArrayRef(const std::initializer_list<_Tp>&) [with T = double][m[K’:
+[01m[K/home/huanhuan/libtorch/include/ATen/NativeFunctions.h:47:1:[m[K   required from here
+[01m[K/home/huanhuan/libtorch/include/c10/util/ArrayRef.h:103:39:[m[K [01;35m[Kwarning: [m[Kinitializing ‘[01m[Kc10::ArrayRef<double>::Data[m[K’ from ‘[01m[Kstd::initializer_list<double>::begin[m[K’ does not extend the lifetime of the underlying array [[01;35m[K-Winit-list-lifetime[m[K]

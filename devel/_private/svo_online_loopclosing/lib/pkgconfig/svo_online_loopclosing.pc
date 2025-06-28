@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_online_loopclosing
+
+Name: svo_online_loopclosing
+Description: Description of svo_online_loopclosing
+Version: 0.0.1
+Cflags: -I/home/huanhuan/SchurVINS-ws/src/SchurVINS/svo_online_loopclosing/include
+Libs: -L${prefix}/lib -lsvo_online_loopclosing -lbow
+Requires: roscpp roslib svo_cmake svo_common rpg_common eigen_catkin dbow2_catkin cv_bridge svo_pgo opengv

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_solver/include/vikit/solver/robust_cost.h
+vector
+-
+memory
+-
+
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_solver/src/robust_cost.cpp
+vikit/solver/robust_cost.h
+/home/huanhuan/SchurVINS-ws/src/SchurVINS/vikit/vikit_solver/src/vikit/solver/robust_cost.h
+cmath
+-
+numeric
+-
+algorithm
+-
+glog/logging.h
+-
+

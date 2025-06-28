@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libvikit_ros.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/vikit_ros.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_ros/cmake/vikit_rosConfig.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_ros/cmake/vikit_rosConfig-version.cmake

@@ -1,0 +1,7 @@
+set(svo_benchmarking_SETUP_PY_SETUP_MODULE "distutils.core")
+set(svo_benchmarking_SETUP_PY_VERSION "0.0.0")
+set(svo_benchmarking_SETUP_PY_SCRIPTS "")
+set(svo_benchmarking_SETUP_PY_PACKAGES "svo_benchmarking")
+set(svo_benchmarking_SETUP_PY_PACKAGE_DIRS "src/svo_benchmarking")
+set(svo_benchmarking_SETUP_PY_MODULES "")
+set(svo_benchmarking_SETUP_PY_MODULE_DIRS "")

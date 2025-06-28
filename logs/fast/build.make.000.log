@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target fast[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/fast.dir/src/fast_10_score.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/fast.dir/src/fast_10.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/fast.dir/src/fast_9.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/huanhuan/SchurVINS-ws/devel/.private/fast/lib/libfast.so[0m
+[100%] Built target fast

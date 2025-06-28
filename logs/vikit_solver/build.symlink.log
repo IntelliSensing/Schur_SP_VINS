@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/libvikit_solver.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/vikit_solver.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_solver/cmake/vikit_solverConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/vikit_solver/cmake/vikit_solverConfig.cmake

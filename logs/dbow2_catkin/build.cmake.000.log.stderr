@@ -1,0 +1,19 @@
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/ExternalProject.cmake:2630 (message):
+  No download info given for 'dbow2_src' and its source directory:
+
+   /home/huanhuan/SchurVINS-ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src
+
+  is not an existing non-empty directory.  Please specify one of:
+
+   * SOURCE_DIR with an existing non-empty directory
+   * DOWNLOAD_COMMAND
+   * URL
+   * GIT_REPOSITORY
+   * SVN_REPOSITORY
+   * HG_REPOSITORY
+   * CVS_REPOSITORY and CVS_MODULE
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/ExternalProject.cmake:3236 (_ep_add_download_command)
+  CMakeLists.txt:11 (ExternalProject_Add)
+
+

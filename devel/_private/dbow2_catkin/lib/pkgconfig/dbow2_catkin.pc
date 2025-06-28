@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/dbow2_catkin
+
+Name: dbow2_catkin
+Description: Description of dbow2_catkin
+Version: 0.0.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/devel/.private/dbow2_catkin/include
+Libs: -L${prefix}/lib -ldbow2_catkin
+Requires: 

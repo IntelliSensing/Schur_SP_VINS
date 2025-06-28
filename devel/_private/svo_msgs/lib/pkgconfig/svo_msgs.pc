@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/devel/.private/svo_msgs
+
+Name: svo_msgs
+Description: Description of svo_msgs
+Version: 0.0.0
+Cflags: -I/home/huanhuan/SchurVINS-ws/devel/.private/svo_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs

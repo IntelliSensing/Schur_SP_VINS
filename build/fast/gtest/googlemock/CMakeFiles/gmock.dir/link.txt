@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -Wall -Werror -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unknown-pragmas -O3 -mmmx -msse -msse -msse2 -msse3 -mssse3 -fomit-frame-pointer  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/huanhuan/SchurVINS-ws/build/fast/gtest/lib ../lib/libgtest.so -lpthread 

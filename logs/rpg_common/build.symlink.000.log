@@ -1,0 +1,4 @@
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/librpg_common.so
+Symlinking /home/huanhuan/SchurVINS-ws/devel/lib/pkgconfig/rpg_common.pc
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/rpg_common/cmake/rpg_commonConfig-version.cmake
+Symlinking /home/huanhuan/SchurVINS-ws/devel/share/rpg_common/cmake/rpg_commonConfig.cmake

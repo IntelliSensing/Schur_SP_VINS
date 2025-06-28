@@ -1,0 +1,8 @@
+prefix=/home/huanhuan/SchurVINS-ws/install
+
+Name: vikit_cameras
+Description: Description of vikit_cameras
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvikit_cameras
+Requires: eigen_catkin eigen_checks cv_bridge glog_catkin minkindr svo_cmake vikit_common
